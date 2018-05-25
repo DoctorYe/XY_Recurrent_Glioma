@@ -1,5 +1,5 @@
 # XY_Recurrent_Glioma
-## textract install
+## textract install(we recommend install it under python2 env)
   it should be install from source:
   ```
     git clone https://github.com/deanmalmgren/textract.git
