@@ -1,0 +1,16 @@
+# XY_Recurrent_Glioma
+## textract install
+  it should be install from source:
+  ```
+    git clone https://github.com/deanmalmgren/textract.git
+    cd textract
+    python setup.py install
+  ```  
+  if you pip install this error may occur:
+  ```
+    Failed building wheel for pocketsphinx
+    Running setup.py clean for pocketsphinx
+    Successfully built textract python-pptx docx2txt xlrd EbookLib
+    Failed to build pocketsphinx
+    requests 2.18.4 has requirement chardet<3.1.0,>=3.0.2, but you'll have chardet 2.3.0 which is incompatible.
+  ```
