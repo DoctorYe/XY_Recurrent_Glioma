@@ -14,3 +14,7 @@
     Failed to build pocketsphinx
     requests 2.18.4 has requirement chardet<3.1.0,>=3.0.2, but you'll have chardet 2.3.0 which is incompatible.
   ```
+some of the Word Document may can't be read by textract, then we can try to use 
+```
+  libreoffice --headless --convert-to txt:text --outdir "/tmp/outdir" "/path/to/file.doc"
+```
